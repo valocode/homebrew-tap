@@ -5,28 +5,28 @@
 class Bubbly < Formula
   desc "Bubbly"
   homepage "https://bubbly.dev/"
-  version "0.1.1-alpha.3"
+  version "0.1.2-alpha"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/valocode/bubbly/releases/download/0.1.1-alpha.3/bubbly_0.1.1-alpha.3_darwin_amd64.tar.gz"
-      sha256 "914cb5a83c2af501ba75d4e0bd91c0a4e6b3bb140fed30133236b28e70e8391d"
+      url "https://github.com/valocode/bubbly/releases/download/0.1.2-alpha/bubbly_0.1.2-alpha_darwin_amd64.tar.gz"
+      sha256 "11e8e049b43e48b4f78560cebb328d4c5e6727df07df1c7ed0d8d98be013659a"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/valocode/bubbly/releases/download/0.1.1-alpha.3/bubbly_0.1.1-alpha.3_darwin_arm64.tar.gz"
-      sha256 "c4ec7d54f2bb15970e2a6b38694ad164a0a9bf9f4205526fdb9dd99a3631084b"
+      url "https://github.com/valocode/bubbly/releases/download/0.1.2-alpha/bubbly_0.1.2-alpha_darwin_arm64.tar.gz"
+      sha256 "15c1bd092949517d0488406fd04e15175acc4f23f9b8b44a9807bf92c144214b"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/valocode/bubbly/releases/download/0.1.1-alpha.3/bubbly_0.1.1-alpha.3_linux_amd64.tar.gz"
-      sha256 "bf61c3f4cddf8e5b0daab61951efa87d9d50e781228e9601931b69f29088dcb6"
+      url "https://github.com/valocode/bubbly/releases/download/0.1.2-alpha/bubbly_0.1.2-alpha_linux_amd64.tar.gz"
+      sha256 "d2f068b228e55d2d2b111ae30c2643251318b2dad88ec40ddaf5159f2ea12279"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/valocode/bubbly/releases/download/0.1.1-alpha.3/bubbly_0.1.1-alpha.3_linux_arm64.tar.gz"
-      sha256 "9942cb19c4a6773ca06ca769f758212df5a65cdc28d109dc2b002c210a575b58"
+      url "https://github.com/valocode/bubbly/releases/download/0.1.2-alpha/bubbly_0.1.2-alpha_linux_arm64.tar.gz"
+      sha256 "a8cbbd78e832d6a4bc5f0a21e4db3b30f9a1db3680511a85b55019d566ae3f71"
     end
   end
 
